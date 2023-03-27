@@ -61,6 +61,7 @@ jobs:
     - name: Change directory
       run: |
         cd business-services
+        ./build/maven/start.sh
     
     - name: Build site-yaml
       # You may pin to the exact commit or the version.
